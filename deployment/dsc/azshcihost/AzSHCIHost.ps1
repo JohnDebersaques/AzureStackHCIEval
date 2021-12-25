@@ -25,7 +25,7 @@ configuration AzSHCIHost
         [String]$azsHCIIsoUri = "https://aka.ms/2CNBagfhSZ8BM7jyEV8I",
         [String]$azsHciVhdPath = "$baseVHDFolderPath\AzSHCI.vhdx",
         [String]$azsHCIISOLocalPath = "$sourcePath\AzSHCI.iso",
-        [Int]$azsHostCount = 2,
+        [Int]$azsHostCount = 4,
         [Int]$azsHostDataDiskCount = 4,
         [Int64]$dataDiskSize = 250GB
     )
